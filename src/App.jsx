@@ -4,7 +4,7 @@ import axios from "axios";
 import { Header } from "./pages/Header";
 
 const API_KEY = "4715309";
-const baseUrl = `http://www.omdbapi.com/?apikey=${API_KEY}&`;
+const baseUrl = `https://www.omdbapi.com/?apikey=${API_KEY}&`;
 
 function App() {
 	const [movies, setMovies] = useState([]);
